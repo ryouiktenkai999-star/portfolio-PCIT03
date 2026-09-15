@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: color inherit;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #e6dddd;
+    scroll-behavior: smooth;
+}
+
+/* Navigation */
+nav {
+    background: #333;
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: rgb(230, 223, 223);
+    text-decoration: color inherit;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background: #555;
+}
+
+/* Sections */
+section {
+    width: 90%;
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 50px;
+    background: rgb(160, 150, 150);
+    border-radius: 50px;
+    box-shadow: 0 0 30px gray;
+}
+
+h1, h2 {
+    margin-bottom: 15px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+li {
+    margin: 8px;
+}
+
+/* Home */
+.home {
+    text-align: center;
+}
+
+.home img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 15px;
+    border: 3px solid #333;
+}
+
+/* Buttons */
+button {
+    background: #333;
+    color: white;
+    border: 1px solid #333;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555;
+}
